@@ -5,6 +5,7 @@ Our friends at PyBer, a Python-based ride sharing company, operate a pay-for-rid
 
 This analysis uses Python and Pandas in Jupyter Notebook with graph visuals creating using Matplotlib.
 
+
 ### Results
 #### Rides and Fares
 PyBer does considerably more business in an urban city were total fares amounts to close to $40k compared to just under $20k in suburbs and just over $4.3k in rural cities. The quantity of rides is also 13 times as much in an urban environment compared to rural and 2.6 times suburban ride totals. This is to be expected where more drivers may provide more opportunities to generate fares revenue for short trips, likely with minimal time for drivers without an active fare in their vehicle. Meanwhile, rural areas may have longer distances to cover for fares and lower overall demand, leading to fewer total rides and fewer drivers. Our data did not assess ride distances, consumer wait times, ride duration, nor driver wages/ride profitability.
@@ -12,8 +13,8 @@ PyBer does considerably more business in an urban city were total fares amounts 
 #### Drivers
 When it comes to the drivers' perspectives, rural drivers earn almost 2.4 times per ride compared to what their suburban counterparts earn per ride and about 3.4 times more than urban drivers, who may face much more competition with other drivers and alternative forms of transportation. There are over 2400 drivers in urban cities while only 490 in suburban and just 78 in rural areas. See Figure 1. for a breakdown of average fares per ride and average fares per driver. 
 
-##### Figure 1. Table of PyBer Fares by City Type.
 ![Image of PyBer DataFrame for Fares by City Type](https://github.com/ozloty06/PyBer_Analysis/blob/main/Analysis/Pyber_fare_by_city_DF.png)
+##### Figure 1. Table of PyBer Fares by City Type.
 
 Without ride duration or driver wage information, it's unclear if drivers are earning reasonable wages and withough profitability data and ride demand data, it's unclear if PyBer has enough or too many drivers in any city type.
 
@@ -22,8 +23,9 @@ In Q1 of 2019, we begin to see some fare trends across all city types. For examp
 
 From the information provided, it's difficult to assess the nature of the price fluctuations and would require additional effort, perhaps some qualitative analysis, to understand what's driving the fares, particularly during times like early January when demand for rides may have dropped off, late January and February to understand what's driving increased fares, and late February/March to better understand the increased fare volitility. Comparing results year over year and across other quarters also would be helpful to understanding macro trends impacting PyBer. See Figure 2 for Fares by City Type for Q1 2019.
 
-##### Figure 2. Line Graph of PyBer Fares by City Type.
 ![Image of PyBer Line Plot for Fares by City Type](https://github.com/ozloty06/PyBer_Analysis/blob/main/Analysis/PyBer_fare_summary.png)
+##### Figure 2. Line Graph of PyBer Fares by City Type.
+
 
 ### Summary
 Based on the results of our analysis, PyBer can address disparities among city types by:
